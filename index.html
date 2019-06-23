@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="styles.css">
+<script src="https://unpkg.com/vue"></script>
+<body>
+	<header>
+		<h2>Barra de Progresso</h2>
+	</header>
+	<section>
+		<div id="app" class="barra-progresso">
+			<div class="progresso" :style="{width}"></div><br>
+			<button @click="iniciarProgresso">Iniciar</button>
+		</div>
+	</section>
+	<script src="app.js"></script>
+	<footer>
+		<p>&copy; André Queiroz - 2019</p>
+	</footer>
+</body>
