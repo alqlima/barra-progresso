@@ -28,3 +28,11 @@ barra-progresso {
     background-color: red;
     height: 5%;
 }
+.btn {
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    background-color: #e51c23;
+    color: #fff;
+}
